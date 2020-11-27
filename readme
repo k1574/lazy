@@ -1,0 +1,11 @@
+lazy
+=====
+lazy is a simple static content management system for web and gopher.
+It uses mk as build system, goblin for some commands, md2htm to convert Markdown files to HTML
+and pp to preprocess them too.
+
+Idea
+====
+The idea is to make content as static as possible with the most possible
+automation for this.
+
