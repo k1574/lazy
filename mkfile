@@ -11,5 +11,7 @@ $PUBDIR:
 	$PP $stem.htm.pp > $target
 $INC:N:
 %.pp %.jpg %.png %.svg %.txt %.mp4 %.m3 %.mkv :N:
-clean:
+run:V:
+	goblin ls -r 100 | entr mk	
+clean:V:
 	rm -f $TGT
