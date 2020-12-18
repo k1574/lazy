@@ -1,3 +1,5 @@
 PP = pp
+MIN = minify
 PUBDIR = net
+INCDIR = inc
 
